@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Page Info-->
+    <meta charset="pt-br" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>AdotaCão</title>
+    <link rel="stylesheet" href="stylecadastro.css" />
+  </head>
+
+  <!--CORPO-->
+  <body>
+    <main>
+      <div class="container">
+        <div class="image">
+          <img src="imagens/rectangle19.png" alt="cachorro e dono" />
+        </div>
+        <div class="content">
+          <div class="logo">
+            <img src="imagens/adotacao-logo.svg" alt="logo" />
+          </div>
+          <section class="register">
+            <h1>Cadastro de cães para adoção</h1>
+            <div class="form">
+              <div class="name-age">
+                <div class="input-group">
+                  <p>Nome</p>
+                  <input type="text" id="name" />
+                </div>
+                <div class="input-group">
+                  <p>Idade</p>
+                  <input type="number" id="age" />
+                </div>
+              </div>
+              <div class="size-feature">
+                <div class="input-group">
+                  <p>Porte</p>
+                  <select name="size" id="size">
+                    <option value="pequeno">Pequeno</option>
+                    <option value="medio">Médio</option>
+                    <option value="grande">Grande</option>
+                  </select>
+                </div>
+                <div class="input-group">
+                  <p>Característica</p>
+                  
+                  <input type="text" id="feature" placeholder="Calmo,agitado..."/>
+                </div>
+              </div>
+              <div class="input-breed">
+                <div>
+                  <p>Raça</p>
+                  <input type="text"id="breed">
+                   </div>
+                   
+                </div>  
+            </div>
+
+            <div class="button">
+              <button>Cadastrar</button>
+            </div>
+          </section>
+           
+          <div id="tab">
+            <table >
+              <tr id="li1">
+                 <th>Nome</th>
+                 <th>Idade</th>
+                 <th>Porte</th>
+                 <th>Característica</th>
+                 <th>Raça</th>
+                 <th>Ação</th>
+             </tr>
+             <tr id="li2">
+                 <td>Marley</td>
+                 <td>10 anos</td>
+                 <td>Grande</td>
+                 <td>Calmo</td>
+                 <td>Labrador</td>
+                 <td>Excluir</td>
+ 
+             </tr>
+             <tr id="li3">
+                 <td>Paçoca</td>
+                 <td>2 anos</td>
+                 <td>Pequeno</td>
+                 <td>Brincalhão</td>
+                 <td>Pug</td>
+                 <td>Excluir</td>
+              </tr>
+ 
+              <tr id="li4">
+                 <td>Guri</td>
+                 <td>2 anos</td>
+                 <td>Médio</td>
+                 <td>Brincalhão</td>
+                 <td>Vira-lata</td>
+                 <td>Excluir</td>
+ 
+
+              
+         </table>
+           </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
