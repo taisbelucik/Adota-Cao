@@ -37,9 +37,11 @@ cellAcao.innerHTML = '<div class="cont-botao"><button class="botao bte" onclick=
 
 function excluir(row){
 debugger
-console.log(row.parentNode.rowIndex)
     var tb = document.getElementById('li1')
        
+
+
+    console.log('teste')
 tb.deleteCell(0)
 tb.deleteCell(1)
 tb.deleteCell(2)
