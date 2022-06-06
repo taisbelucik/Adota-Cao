@@ -2,7 +2,6 @@ const { listen } = require("express/lib/application")
 
 
 function cadastrar(){
-debugger
 
 var tb = document.getElementById('tab1')
 var nome = document.getElementById('name').value
@@ -36,18 +35,16 @@ cellAcao.innerHTML = '<div class="cont-botao"><button class="botao bte" onclick=
 
 
 function excluir(row){
-debugger
-    var tb = document.getElementById('li1')
-       
+       console.log(row.parentNode.parentNode.parentNode)
+       row.parentNode.parentNode.parentNode.remove()
 
-
-    console.log('teste')
-tb.deleteCell(0)
-tb.deleteCell(1)
-tb.deleteCell(2)
-tb.deleteCell(3)
-tb.deleteCell(4)
-tb.deleteCell(5)
-tb.deleteCell(6)
+//     console.log('teste')
+// tb.deleteCell(0)
+// tb.deleteCell(1)
+// tb.deleteCell(2)
+// tb.deleteCell(3)
+// tb.deleteCell(4)
+// tb.deleteCell(5)
+// tb.deleteCell(6)
 }
 
